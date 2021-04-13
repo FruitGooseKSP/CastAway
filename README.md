@@ -16,7 +16,7 @@ INSTRUCTIONS
 - Click the "Raise Anchor" button to raise the anchor and commence sailing. 
 
 IMPORTANT - this mod introduces a new concept of negative control, whereby when the anchor is released, the raft will be pushed by the wind power 
-automatically. The player is, instead of being responsible for making the vessel go, is now responsible for making it stop instead.
+automatically. The player, instead of being responsible for making the vessel go, is now responsible for making it stop instead.
 
 - Pressing "A" (yaw left) will turn the raft left. Pressing "D" (yaw right) will turn the raft right. Pressing "S" (pitch up) will furl the sails (slow 
 you down. As stated above, releasing "S" will unfurl the sails and accelerate you up to top speed.
