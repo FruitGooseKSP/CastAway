@@ -19,7 +19,7 @@ IMPORTANT - this mod introduces a new concept of negative control, whereby when 
 automatically. The player, instead of being responsible for making the vessel go, is now responsible for making it stop instead.
 
 - Pressing "A" (yaw left) will turn the raft left. Pressing "D" (yaw right) will turn the raft right. Pressing "S" (pitch up) will furl the sails (slow 
-you down. As stated above, releasing "S" will unfurl the sails and accelerate you up to top speed.
+you down). As stated above, releasing "S" will unfurl the sails and accelerate you up to top speed.
 
 - To stop sailing, press the (now reading) "Lower Anchor" button which will slow you pretty quickly! You will no longer be suseptible to wind power.
 
