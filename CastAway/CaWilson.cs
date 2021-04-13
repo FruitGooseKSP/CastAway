@@ -6,8 +6,9 @@ using UnityEngine;
 
 namespace CastAway
 {
-    public class CaSail : PartModule
+    public class CaWilson : PartModule
     {
         // purely for completion
+
     }
 }

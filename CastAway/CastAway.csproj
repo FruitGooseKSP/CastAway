@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="CaRaft.cs" />
     <Compile Include="CaSail.cs" />
+    <Compile Include="CaWilson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WindHandler.cs" />
   </ItemGroup>

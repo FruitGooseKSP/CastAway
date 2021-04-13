@@ -6,40 +6,29 @@ using UnityEngine;
 
 namespace CastAway
 {
-    [KSPAddon(KSPAddon.Startup.Flight, false)]
-    public class WindHandler : MonoBehaviour
+    
+    public class WindHandler
     {
-        private Vector3 windDirection = new Quaternion().eulerAngles;
+        
         private float windSpeed;
 
 
-        private float GetWindDirection()
+        public WindHandler()
         {
-            System.Random random = new System.Random();
-            return random.Next(0, 359);
-        }
-
-        private float GetWindSpeed()
-        {
-            System.Random random = new System.Random();
-            return random.Next(5, 12);
-        }
-
-        public void Start()
-        {
-
-            windDirection.x = 0;
-            windDirection.y = 0;
-            windDirection.z = GetWindDirection();
-
             windSpeed = GetWindSpeed();
-
         }
 
-        public float GetWindDir()
+
+
+        public float GetWindSpeed()
         {
-            return windDirection.z;
+            // randomly generates a wind value between 5 & 12 kts
+
+              System.Random random = new System.Random();
+              return float.Parse(random.Next(5, 12).ToString());
         }
+
+
 
         public float GetWindSp()
         {
