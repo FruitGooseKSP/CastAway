@@ -15,13 +15,13 @@ namespace CastAway
 
         private float GetWindDirection()
         {
-            var random = new System.Random();
+            System.Random random = new System.Random();
             return random.Next(0, 359);
         }
 
         private float GetWindSpeed()
         {
-            var random = new System.Random();
+            System.Random random = new System.Random();
             return random.Next(5, 12);
         }
 
@@ -36,10 +36,14 @@ namespace CastAway
 
         }
 
-        public Tuple<Vector3, float> GetWindData()
+        public float GetWindDir()
         {
-            var windData = Tuple.Create(windDirection, windSpeed);
-            return windData;
+            return windDirection.z;
+        }
+
+        public float GetWindSp()
+        {
+            return windSpeed;
         }
 
 
